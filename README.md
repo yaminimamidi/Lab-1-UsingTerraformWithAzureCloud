@@ -18,6 +18,7 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Install Terraform
 - Install and Configure VSCode
 - Install Terraform Extension for VSCode
+- Install PowerShell Extension for VSCode
 - Install PowerShell 7 (Optional)
     
 ## Lab 1.2 - Navigating the Terraform Provider Documentation (https://registry.terraform.io/)

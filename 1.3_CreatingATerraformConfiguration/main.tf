@@ -9,7 +9,7 @@ resource "azurerm_resource_group" "rg01" {
 }
 
 resource "azurerm_storage_account" "sa001" {
-  name                     = "acstorage001"
+  name                     = "acstorage89z"
   resource_group_name      = azurerm_resource_group.rg01.name
   location                 = azurerm_resource_group.rg01.location
   account_tier             = "Standard"
