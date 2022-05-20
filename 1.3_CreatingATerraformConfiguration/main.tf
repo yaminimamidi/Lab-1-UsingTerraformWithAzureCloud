@@ -10,13 +10,13 @@ resource "azurerm_resource_group" "rg01" {
 
 resource "azurerm_storage_account" "sa001" {
   name                     = "acstorage89z"
-  resource_group_name      = azurerm_resource_group.rg01.name
-  location                 = azurerm_resource_group.rg01.location
+  resource_group_name      = "Test-RG-AC-01"
+  location                 = "eastus2"
   account_tier             = "Standard"
   account_replication_type = "LRS"      # Cheapest option - Use this
 
   tags = {
     environment = "staging"
-    foo = "bar"
+    test = "true"
   }
 }

@@ -43,3 +43,5 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Planning a Terraform Configuration
 - Applying a Terraform Configuration
 - Destroying Resources created by a Terraform Configuration
+
+## Lab 1.4 - 
