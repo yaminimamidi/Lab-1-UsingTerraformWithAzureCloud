@@ -44,4 +44,32 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Applying a Terraform Configuration
 - Destroying Resources created by a Terraform Configuration
 
-## Lab 1.4 - 
+## Lab 1.4 - Making a Terraform Configuration more Flexible
+- Tying resouces togething in a configuration
+- Using Variables
+- Using Locals
+- Using Outputs
+- Using Data lookups
+- Organizing your Terraform Configuration
+- Creating Resource Dependencies
+
+## Lab 1.5 - Deeper Dive Into Variables
+- Setting up a variables.tf file
+- Variable types
+- Default values
+- Using Sensitive Variables
+- Using validaton rules for variables
+- Nullable variables
+- Using variables on the command line
+- Using a .tfvars file
+
+## Lab 1.6 - Using the Terraform State
+- Where is the local state stored
+- Listing resources from the current state
+- Showing the state with 'terraform show'
+- Removing resources from the state
+- Importing resources into the state
+
+## Lab 1.7 - Using Modules
+- Using modules from the Terraform Registry
+- Build and use a local module
