@@ -32,7 +32,7 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Timeouts
 - Import Example
 
-## Lab 1.3 - Creating a Terraform Configuration
+## Lab 1.3 - Creating a Terraform Configuration for Azure Cloud
 - Setting up a folder for Terraform files
 - Creating Terraform Files
 - Setting up providers
