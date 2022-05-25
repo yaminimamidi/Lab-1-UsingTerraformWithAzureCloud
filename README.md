@@ -36,9 +36,9 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Setting up a folder for Terraform files
 - Creating Terraform Files
 - Setting up providers
+- Logging into AzureCLI
 - Creating a Resource Group
 - Creating a Storage Account
-- Logging into AzureCLI
 - Initializing a Terraform Configuration
 - Planning a Terraform Configuration
 - Applying a Terraform Configuration
@@ -48,8 +48,8 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Tying resouces togething in a configuration
 - Using Variables
 - Using Locals
-- Using Outputs
 - Using Data lookups
+- Using Outputs
 - Organizing your Terraform Configuration
 - Creating Resource Dependencies
 
