@@ -48,7 +48,7 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Tying resouces togething in a configuration
 - Using Data Sources
 - Using Variables
-- Using Locals
+- Using Local Values (Locals)
 - Using Outputs
 - Organizing your Terraform Configuration
 - Creating Resource Dependencies
