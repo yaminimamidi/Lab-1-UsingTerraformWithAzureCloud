@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "rg1" {
 }
 
 resource "azurerm_storage_account" "sa1" {
-  name                     = "acstorage54855"
+  name                     = "acstorage111"
   resource_group_name      = "RG-01"
   location                 = "Eastus2"
   account_tier             = "Standard"

@@ -14,8 +14,8 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 
 ## Lab 1.1 - Install and Configure Tools
 - Install Chocolatey
-- Install Azure CLI
 - Install Terraform
+- Install Azure CLI
 - Install and Configure VSCode
 - Install Terraform Extension for VSCode
 - Install PowerShell Extension for VSCode
@@ -31,6 +31,8 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Exported Attributes
 - Timeouts
 - Import Example
+- Data Sources
+
 
 ## Lab 1.3 - Creating a Terraform Configuration for Azure Cloud
 - Setting up a folder for Terraform files
@@ -51,7 +53,7 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Using Local Values (Locals)
 - Using Outputs
 - Organizing your Terraform Configuration
-- Creating Resource Dependencies
+- Creating Explicit Dependencies
 
 ## Lab 1.5 - Deeper Dive Into Variables
 - Setting up a variables.tf file
