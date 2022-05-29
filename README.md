@@ -55,7 +55,7 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Organizing your Terraform Configuration
 - Creating Explicit Dependencies
 
-## Lab 1.5 - Deeper Dive Into Variables
+## Lab 1.5 - Input Variables
 - Setting up a variables.tf file
 - Variable types
 - Default values
