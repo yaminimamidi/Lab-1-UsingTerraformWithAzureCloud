@@ -59,9 +59,8 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Setting up a variables.tf file
 - Variable types
 - Default values
-- Using Sensitive Variables
 - Using validaton rules for variables
-- Nullable variables
+- Using Sensitive Variables
 - Using variables on the command line
 - Using a .tfvars file
 
