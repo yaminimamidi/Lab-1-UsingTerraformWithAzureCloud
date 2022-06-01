@@ -56,8 +56,7 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Creating Explicit Dependencies
 
 ## Lab 1.5 - Input Variables
-- Setting up a variables.tf file
-- Variable types
+- Type Constraints
 - Default values
 - Using validaton rules for variables
 - Using Sensitive Variables
