@@ -51,5 +51,5 @@ resource "azurerm_storage_account" "sa3" {
   account_tier             = "Standard"
   account_replication_type = "LRS"
 
-  # depends_on = [azurerm_resource_group.rg2] Uncomment to create dependency
+  depends_on = [azurerm_resource_group.rg2]
 }
