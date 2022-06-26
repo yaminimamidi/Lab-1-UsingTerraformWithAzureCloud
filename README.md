@@ -70,6 +70,11 @@ In this lab, you will learn to use Terraform to build resources in Azure Cloud i
 - Removing resources from the state
 - Importing resources into the state
 
-## Lab 1.7 - Using Modules
-- Using modules from the Terraform Registry
-- Build and use a local module
+## Lab 1.7 - Using Modules From the Terraform Registry
+- Finding a module in the Terraform Registry
+- Exploring the documentation for a module in the Registry
+- Using example code from the documentation
+- Deploying resources with a module
+
+## Lab 1.8 - Creating a Local Module
+- TBD
