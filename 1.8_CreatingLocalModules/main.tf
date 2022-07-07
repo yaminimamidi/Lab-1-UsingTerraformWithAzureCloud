@@ -16,6 +16,10 @@ resource "azurerm_storage_container" "content" {
   name                  = "content"
   storage_account_name  = module.Storage2.storage_account_name
   container_access_type = "private"
+
+  depends_on = [
+    module.Storage2
+  ]
 }
 
 output "Storage2" {
