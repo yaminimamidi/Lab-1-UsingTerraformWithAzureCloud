@@ -1,18 +1,26 @@
 module "Storage1" {
   source               = "./modules/StorageAccount"
-  resource_group_name  = "RG-TEST-01"
+  resource_group_name  = "RG-STORAGE-01"
   storage_account_name = "acteststorage01"
   location             = "EastUs2"
 }
 
 module "Storage2" {
   source               = "./modules/StorageAccount"
-  resource_group_name  = "RG-TEST-02"
+  resource_group_name  = "RG-STORAGE-02"
   storage_account_name = "acteststorage02"
   location             = "EastUs2"
 }
 
+resource "azurerm_storage_container" "content" {
+  name                  = "content"
+  storage_account_name  = module.Storage2.storage_account_name
+  container_access_type = "private"
+}
 
+output "Storage2" {
+  value = module.Storage2
+}
 
 
 
